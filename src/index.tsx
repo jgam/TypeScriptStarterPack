@@ -2,4 +2,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Counter from './components/Counter';
 
-ReactDOM.render(<Counter name={"jimmy"}/>, document.getElementById("app"));
+import App from './components/App';
+
+ReactDOM.render(<App/>, document.getElementById("app"));
